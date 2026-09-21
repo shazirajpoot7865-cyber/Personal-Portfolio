@@ -9,6 +9,8 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
+<link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
 <body class="bg-slate-900 text-white">
     <nav class="bg-slate-900/90 backdrop-blur border-b border-slate-800 sticky top-0 z-50">
         <div class="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center ">
@@ -58,9 +60,12 @@
                         Me</a>
                 </div>
                 <div class="text-gray-400 flex gap-4">
-                    <a href="#" class="hover:text-blue-600 transition">GitHub</a>
-                    <a href="#" class="hover:text-blue-600 transition">LinkedIn</a>
-                    <a href="#" class="hover:text-blue-600 transition">Email</a>
+                    <a href="https://github.com/shazirajpoot7865-cyber" target="_blank" rel="noopener noreferrer"
+                        class="hover:text-blue-600 transition">GitHub</a>
+                    <a href="https://www.Linkedin.com/in/shahzaib-ali-301876420/"
+                        class="hover:text-blue-600 transition">LinkedIn</a>
+                    <a href="mailto:shazirajpoot7865@gmail.com?subject=Contact%20from%20Portfolio" target="_blank"
+                        rel="noopener noreferrer" class="hover:text-blue-600 transition">Email</a>
                 </div>
             </div>
             <div class="relative">
@@ -192,7 +197,8 @@
                     </div>
                     <div class="flex gap-4 font-medium text-sm">
                         <a href="" target="_blank" class="hover:underline text-blue-400">Live Demo</a>
-                        <a href="" target="_blank" class="hover:underline text-blue-400">GitHub</a>
+                        <a href="https://github.com/shazirajpoot7865-cyber/Personal-Portfolio" target="_blank"
+                            class="hover:underline text-blue-400">GitHub</a>
                     </div>
                 </div>
                 <!--more project comming soon-->
@@ -234,8 +240,8 @@
                     current = section.getAttribute("id");
                 }
             });
-            if(window.innerHeight + window.scrollY >=document.documentElement.scrollHeight - 50){
-                current = section[section.length-1].getAttribute("id");
+            if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 50) {
+                current = section[section.length - 1].getAttribute("id");
             }
             navlink.forEach(function (link) {
                 link.classList.remove("text-blue-500", "border-b-2", "border-blue-500");
